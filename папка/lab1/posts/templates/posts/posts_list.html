@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-</head>
-<body>
+{% extends 'layout.html' %}
+
+{% block title %}
+    Посты
+{% endblock %}
+
+{% block content %}
     <h1>Посты</h1>
-    <script src="{% static 'js/welcome.js' %}"></script>
-</body>
-</html>
+{% endblock %}
